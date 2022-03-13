@@ -19,7 +19,7 @@ function Master(props) {
         >
           <span className="navbar-toggler-icon" />
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div className="collapse navbar-collapse"  id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item">
               <Link className="nav-link" to="/">
@@ -28,7 +28,7 @@ function Master(props) {
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/cart">
-                Carts <span className="badge badge-pill badge-primary"> 10 </span>
+                Carts <span className="badge badge-pill badge-primary"> { props.cart.length } </span>
               </Link>
             </li>
             <li className="nav-item">

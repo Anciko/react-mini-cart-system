@@ -2,9 +2,9 @@ import React from "react";
 import Master from "./Layout/Master";
 
 
-function About() {
+function About(props) {
     return (
-        <Master>
+        <Master {...props}>
             <h1>I am About Page</h1>
         </Master>
     )
